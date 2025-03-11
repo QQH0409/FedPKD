@@ -1,7 +1,7 @@
 # FedPKD
 Parameterd Data-Free Knowledge Didtillation for Heterogeneous Federated Learning
 # Prepare Dataset:
-*To generate non-iid Mnist Dataset following the Dirichlet distribution D(α=0.1) for 20 clients, using 50% of the total available training samples:
+-To generate non-iid Mnist Dataset following the Dirichlet distribution D(α=0.1) for 20 clients, using 50% of the total available training samples:
 <pre><code>cd FedGen/data/Mnist
 python generate_niid_dirichlet.py --n_class 10 --sampling_ratio 0.5 --alpha 0.1 --n_user 20
 ### This will generate a dataset located at FedGen/data/Mnist/u20c10-alpha0.1-ratio0.5/
